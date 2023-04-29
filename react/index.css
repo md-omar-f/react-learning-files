@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-img {
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-items li {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.footer-section {
+  background-color: rgb(220, 216, 223);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
